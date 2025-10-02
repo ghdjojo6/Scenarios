@@ -1,0 +1,761 @@
+room,source_type,source_node,edge_type,target_type,target_node
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
+마당,cause,반려견 입양 후 아파트 답답함,motivation,action,단독주택 이사 결심
+전체,action,단독주택 이사 결심,result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음
+마당,cause,반려견 입양 후 아파트 답답함 (1),motivation,action,단독주택 이사 결심 (1)
+전체,action,단독주택 이사 결심 (1),result,result,반려견가 마당에서 자유롭게 뛰어놀 수 있음 (1)
+전체,cause,"지인의 단독주택 체험, 여유로움 경험",motivation,action,집을 직접 짓기로 결심
+전체,action,집을 직접 짓기로 결심,result,result,떼까사 완공
+전체,cause,"지인의 단독주택 체험, 여유로움 경험 (2)",motivation,action,집을 직접 짓기로 결심 (2)
+전체,action,집을 직접 짓기로 결심 (2),result,result,떼까사 완공 (2)
+기타,cause,코로나로 외출 자제,motivation,action,집 안에서 즐기기
+전체,action,집 안에서 즐기기,result,result,집에 대한 애착 심화
+기타,cause,코로나로 외출 자제 (3),motivation,action,집 안에서 즐기기 (3)
+전체,action,집 안에서 즐기기 (3),result,result,집에 대한 애착 심화 (3)
+외관,cause,외관은 바꾸기 어려움,motivation,action,하얀 벽돌+루버 유지
+외관,action,하얀 벽돌+루버 유지,result,result,견고하고 단단한 집 완성
+외관,cause,외관은 바꾸기 어려움 (1),motivation,action,하얀 벽돌+루버 유지 (1)
+외관,action,하얀 벽돌+루버 유지 (1),result,result,견고하고 단단한 집 완성 (1)
+기타,cause,유지보수 문제 지적 받음,constrain,action,세라믹 대신 방무목 선택
+기타,action,세라믹 대신 방무목 선택,result,result,시간 지나도 멋 유지
+기타,cause,유지보수 문제 지적 받음 (2),constrain,action,세라믹 대신 방무목 선택 (2)
+기타,action,세라믹 대신 방무목 선택 (2),result,result,시간 지나도 멋 유지 (2)
+기타,cause,화이트+우드 조합 선호,selection,action,벽돌 타일 채택
+외관,action,벽돌 타일 채택,result,result,원하는 분위기 완성
+기타,cause,화이트+우드 조합 선호 (3),selection,action,벽돌 타일 채택 (3)
+외관,action,벽돌 타일 채택 (3),result,result,원하는 분위기 완성 (3)
+기타,cause,손님 프라이버시 필요,motivation,action,화장실 별관 배치
+욕실,action,화장실 별관 배치,result,result,손님 만족
+기타,cause,손님 프라이버시 필요 (1),motivation,action,화장실 별관 배치 (1)
+욕실,action,화장실 별관 배치 (1),result,result,손님 만족 (1)
+서재,cause,"남편의 취향, 서재 필요",selection,action,2층 거실을 서재로 조성
+거실,action,2층 거실을 서재로 조성,result,result,남편의 Dream Come True 공간
+서재,cause,"남편의 취향, 서재 필요 (2)",selection,action,2층 거실을 서재로 조성 (2)
+거실,action,2층 거실을 서재로 조성 (2),result,result,남편의 Dream Come True 공간 (2)
+기타,cause,부부의 생활 습관(수면 방해 방지),motivation,action,침실 작게 설계
+침실,action,침실 작게 설계,result,result,아늑한 수면 공간
+기타,cause,부부의 생활 습관(수면 방해 방지) (3),motivation,action,침실 작게 설계 (3)
+침실,action,침실 작게 설계 (3),result,result,아늑한 수면 공간 (3)
+거실,cause,부부의 거실 생활 선호,motivation,action,큰 창문과 높은 층고 설계
+거실,action,큰 창문과 높은 층고 설계,result,result,휴양지 같은 거실
+거실,cause,부부의 거실 생활 선호 (1),motivation,action,큰 창문과 높은 층고 설계 (1)
+거실,action,큰 창문과 높은 층고 설계 (1),result,result,휴양지 같은 거실 (1)
+기타,cause,창 앞에 벚꽃나무 두고 싶음,selection,action,왕벚나무 식재
+기타,action,왕벚나무 식재,result,result,봄마다 아름다운 풍경
+기타,cause,창 앞에 벚꽃나무 두고 싶음 (2),selection,action,왕벚나무 식재 (2)
+기타,action,왕벚나무 식재 (2),result,result,봄마다 아름다운 풍경 (2)
+마당,cause,반려견의 존재,constrain,action,심플 정원 대신 잔디 시공
+마당,action,심플 정원 대신 잔디 시공,result,result,반려견가 자유롭게 뛰어놀 수 있는 마당
+마당,cause,반려견의 존재 (3),constrain,action,심플 정원 대신 잔디 시공 (3)
+마당,action,심플 정원 대신 잔디 시공 (3),result,result,반려견가 자유롭게 뛰어놀 수 있는 마당 (3)
+기타,cause,미니멀 컨셉 추구,selection,action,상부장 대신 아일랜드 수납 채택
+주방,action,상부장 대신 아일랜드 수납 채택,result,result,깔끔한 주방 완성
+기타,cause,미니멀 컨셉 추구 (1),selection,action,상부장 대신 아일랜드 수납 채택 (1)
+주방,action,상부장 대신 아일랜드 수납 채택 (1),result,result,깔끔한 주방 완성 (1)
+기타,cause,답답한 상부장 기피,selection,action,빌트인 가전 채택
+기타,action,빌트인 가전 채택,result,result,주방 간결함 유지
+기타,cause,답답한 상부장 기피 (2),selection,action,빌트인 가전 채택 (2)
+기타,action,빌트인 가전 채택 (2),result,result,주방 간결함 유지 (2)
+마당,cause,반려견가 물놀이 좋아함,motivation,action,반려견 맞춤형 수영장 설치
+마당,action,반려견 맞춤형 수영장 설치,result,result,반려견와 조카들이 즐겁게 활용
+마당,cause,반려견가 물놀이 좋아함 (1),motivation,action,반려견 맞춤형 수영장 설치 (1)
+마당,action,반려견 맞춤형 수영장 설치 (1),result,result,반려견와 조카들이 즐겁게 활용 (1)
+피트니스룸,cause,남편의 운동 취향,selection,action,맞춤형 피트니스룸 제작
+피트니스룸,action,맞춤형 피트니스룸 제작,result,result,"남편 만족, 매일 운동"
+피트니스룸,cause,남편의 운동 취향 (2),selection,action,맞춤형 피트니스룸 제작 (2)
+피트니스룸,action,맞춤형 피트니스룸 제작 (2),result,result,"남편 만족, 매일 운동 (2)"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등)",constrain,action,이지클린 소파 선택
+거실,action,이지클린 소파 선택,result,result,"관리 용이, 가족 만족"
+마당,cause,"반려견의 생활 패턴(흙, 물, 발톱 등) (1)",constrain,action,이지클린 소파 선택 (1)
+거실,action,이지클린 소파 선택 (1),result,result,"관리 용이, 가족 만족 (1)"
+마당,cause,반려견 고려한 습관,motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택",result,result,가족이라는 감정 강화
+마당,cause,반려견 고려한 습관 (2),motivation,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)"
+기타,action,"식물, 타일, 가구 반려견 안전 중심 선택 (2)",result,result,가족이라는 감정 강화 (2)
+마당,cause,반려견로 인해 유기견 관심 확대,motivation,action,유기견 돕기
+기타,action,유기견 돕기,result,result,삶의 의미 강화
+마당,cause,반려견로 인해 유기견 관심 확대 (3),motivation,action,유기견 돕기 (3)
+기타,action,유기견 돕기 (3),result,result,삶의 의미 강화 (3)
