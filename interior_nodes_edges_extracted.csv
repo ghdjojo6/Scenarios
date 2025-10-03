@@ -1,0 +1,114 @@
+﻿room,source_type,source_node,edge_type,target_type,target_node
+전체(집),cause,라떼 입양,motivation,action,단독주택 필요성 인식
+전체(집),action,단독주택 단지 여러 번 답사,motivation,action,정보 수집 및 이사 검토
+전체(집),cause,아파트에서 반려견 활동 제약 느낌,motivation,action,마당 있는 집 선호 강화
+전체(집),cause,지인의 단독주택 방문 경험,motivation,action,주택 짓기로 결심
+전체(집),action,단독주택 건축 결정,result,result,주택 특유의 여유·평온 경험
+전체(집),cause,코로나로 거리두기 일상화,motivation,action,집 내부 공간 활용 극대화
+전체(집),cause,집은 바꾸기 어려운 장기 자산,motivation,action,외관·외장재 우선 설계 기준 설정
+전체(집),cause,내가 원하는 집에 살아야 애착 형성,motivation,action,취향 명확화 및 일관된 의사결정
+전체(집),cause,예산 제약,constrain,action,"방은 작게, 공용 공간은 크게 설계"
+전체(집),action,공용 크고 방 작게 설계,result,result,거실·주방 시원한 개방감 확보
+전체(집),cause,자연과 가까운 삶 희망,motivation,action,큰 창·중정·조경 계획 반영
+외관,cause,외관은 한 번 지으면 바꾸기 어려움,motivation,action,외관 설계 초안 유지
+외관,cause,화이트+우드 조합 선호,selection,action,화이트 벽돌 + 루버 조합 채택
+외관,cause,벽돌의 견고·무게감 선호,selection,action,외장재로 벽돌 타일 선택
+외관,cause,유지보수 우려 제기,constrain,action,세라믹 사이딩 검토
+외관,cause,원하는 분위기엔 벽돌 타일 필수,motivation,action,세라믹 대신 벽돌 타일 고수
+외관,action,벽돌 타일 시공,result,result,견고하고 단단한 외관 구현
+외관,cause,루버의 질감 선호,selection,action,루버 요소를 내외부 디자인에 연속 적용
+외관,action,전문가의 마감 공력 투입,result,result,시간 경과해도 멋이 담기는 외관 완성
+외관,cause,방부목 색의 에이징 미감 수용,selection,action,방부목 채택 및 컬러 도장
+구성,action,2층 목조 주택 계획,result,result,약 60평 규모 주택 완성
+구성,action,본관(거실·부엌)과 별관(게스트룸·욕실·피트니스) 분리,result,result,중정을 통한 동선 분절 및 프라이버시 강화
+구성,cause,손님 프라이버시 보호 필요,motivation,action,게스트용 화장실을 별관에 배치
+구성,action,게스트룸·피트니스룸이 화장실 공유,result,result,공간 효율화 및 배관 집중
+중정,cause,어디서나 바깥 조망 희망,motivation,action,거실 주변에 큰 창 다수 계획
+중정,action,중정 설치,result,result,거실 어디서나 외부 조망 및 채광 확보
+창호,cause,답답함을 싫어함,motivation,action,커튼 최소화 및 통창 계획
+창호,action,침실 앞 통창 설치,result,result,작은 침실에도 개방감·채광 확보
+거실,cause,거실 체류시간 많음,motivation,action,거실을 크게·층고 높게 설계
+거실,action,층고 상승 및 실링팬 적용,result,result,이국적 공간감 연출
+거실,cause,동남아 모던 무드 의도,selection,action,"가구는 심플, 러그·식물·소품은 현지 무드로 선택"
+거실,action,태국산 식탁·스툴 구매,result,result,거실 컨셉 강화
+거실,cause,중정과 조경의 계절감 연출,motivation,action,큰 통창 앞 소파 배치
+거실,action,큰 통창 앞 소파 누워 벚꽃 감상,result,result,실내에서 사계 감상하는 휴식 경험
+서재,cause,남편의 독서·음악 취향,selection,action,2층 서재를 남편 전용 공간으로 계획
+서재,action,서재에 리클라이너·수백 장 CD 배치,result,result,조용한 독서·음악 감상 환경 제공
+서재,action,2층 서재에서 1층 거실 조망,result,result,수직적 시야 확장과 공간 연결감
+침실,cause,서로 다른 출근 시간·수면 간섭 최소화,motivation,action,침실 최소 크기 설계
+침실,action,침실을 침대 1개 크기로 계획,result,result,작지만 안락한 수면 환경
+침실,action,통창으로 중정 조망 확보,result,result,작은 방 답답함 해소
+드레스룸/마스터욕실,cause,호텔·온천 취향 반영,selection,action,큰 창과 노천탕 느낌 계획
+드레스룸/마스터욕실,action,세면·샤워 단차 설계,result,result,세면공간 건식 사용
+드레스룸/마스터욕실,cause,외부 루버 질감 실내 연속성 의도,motivation,action,목재 질감의 타일로 벽 마감
+드레스룸/마스터욕실,action,목재 느낌 타일 선택,result,result,동남아 리조트 감성 구현
+부엌,cause,보이는 물건 최소화 희망,motivation,action,상부장 배제·아일랜드로 수납 확보
+부엌,action,긴 싱크대 + 양면 수납 아일랜드 설치,result,result,미니멀한 주방 동선·정리 용이
+부엌,action,냉장고·식기세척기·밥솥 빌트인,result,result,일체감 있는 파사드 형성
+부엌,cause,상판은 깔끔하지만 가벼워 보이지 않게,selection,action,세라믹 상판 선택
+부엌,action,밝은 나무 싱크대 채택,result,result,바닥 타일·가구와 조화로운 톤 매칭
+조경,cause,큰 통창 앞 사계 연출 욕구,selection,action,왕벚나무 식재
+조경,action,왕벚나무 식재,result,result,하얀 벽돌·벚꽃·큰 창이 만드는 진입 경관 형성
+조경,cause,강아지 활동성 고려,constrain,action,메인 마당에 잔디 시공
+조경,cause,심플한 정원 취향,selection,action,중정에는 자갈·그라스 위주로 구성
+조경,action,중정에 단풍나무 한 그루 식재,result,result,소파에서 액자 같은 계절 변화 감상
+수영장,cause,라떼 수영 즐김,motivation,action,라떼 맞춤 크기·깊이의 수영장 설계
+수영장,action,온수 지원 수영장 시공,result,result,쌀쌀한 날에도 사용 가능
+수영장,action,수심 얕게 계획,result,result,어린 조카 이용 시 안전성 확보
+수영장,action,수영장·마당을 오가며 활동,result,result,가족 여가 만족도 상승
+수영장,cause,관리 난이도 존재,constrain,action,관리 부담 수용하며 유지 결정
+피트니스룸,cause,남편의 웨이트 운동 루틴,motivation,action,맞춤 제작 운동기구 도입
+피트니스룸,action,남편 전용 헬스장 구성,result,result,일상적 운동 실천 용이
+별관,cause,방문객 프라이버시 보장,motivation,action,게스트룸과 욕실을 별관에 분리 배치
+게스트룸,action,큰 붙박이장·퀸 침대 배치,result,result,숙박 편의성 확보
+화장실(별관),action,게스트·피트니스룸 공용 동선,result,result,사용 구역 분리로 본관 프라이버시 강화
+가구,cause,라떼 털빠짐·발톱 긁힘·오염,constrain,action,발수·내오염·이지클린 소파 구매
+가구,action,밝은 톤 소파 선택,result,result,떼까사 전체 톤과 조화
+가구,action,기능성 패브릭 가구 채택,result,result,반려동물 가정의 관리 용이성 확보
+재료,cause,미끄럼 위험 최소화 필요,constrain,action,미끄러짐 적은 타일 선택
+운영,action,아침 햇살 들어오는 주방 활용,result,result,벚나무 그림자 연출로 정서적 만족
+운영,action,거실에서 식사·대화 즐김,result,result,공용 공간 중심의 생활 패턴 확립
+운영,action,큰 창 앞 소파에서 벚꽃 감상,result,result,집 안에서 소확행 경험
+복층,cause,공용과 사적 공간 분리 의도,motivation,action,2층은 가족 전용·1층은 공용으로 계획
+복층,action,1층에서 2층 공간 노출 최소화,result,result,급 방문 시 2층 청소 부담 감소
+의사결정,cause,전문가 조언과 취향의 균형 필요,motivation,action,취향을 분명히 하고 핵심 요소는 고수
+의사결정,action,외관 핵심 재료 고수(벽돌 타일),result,result,원하던 분위기 정확히 구현
+반려동물,cause,라떼는 가족 구성원,motivation,action,식물·가구·마감 모두 반려동물 친화적으로 선택
+반려동물,action,강아지에 해롭지 않은 식재 선택,result,result,안전한 마당 환경 조성
+반려동물,action,수영 후 젖은 몸 이동 고려,constrain,action,내오염성 높은 가구·마감 선택
+반려동물,action,마당 왕래 빈번·여름 잦은 수영,result,result,기존 소파 오염 → 기능성 소파로 교체
+외관,cause,화이트 벽돌과 루버 혼합 매스 선호,motivation,action,네모반듯한 입면 구성
+외관,cause,세라믹 사이딩 실용성 장점 인지,constrain,action,미관 우선으로 대안 보류
+거실,action,큰 창 다량 배치,result,result,실내 채광·조망 극대화
+거실,action,실링팬 설치,result,result,상부 체감 온도 조절·공기순환 개선
+부엌,action,상부장 미설치,result,result,시야 개방과 시각적 미니멀리즘
+부엌,action,빌트인 가전 일체화,result,result,파사드 정돈·가전 노출 최소화
+조경,action,중정 자갈 포장,result,result,유지관리 부담 완화·심플 미감
+조경,action,단풍나무 1그루 포인트,result,result,계절감 포인트 연출
+침실,action,통창 배치,result,result,채광 확보·공간 확장감
+마스터욕실,action,목재 질감 타일,result,result,습식 공간에서도 리조트 무드 구현
+수영장,action,온수 시스템,result,result,사계절 활용도 증대
+피트니스룸,action,맞춤 기구 배치,result,result,운동 루틴 지속 가능성 향상
+서재,action,리클라이너 배치,result,result,장시간 독서·청취 쾌적성 향상
+거실,cause,동남아 무드 소품 직접 공수,selection,action,현지감 있는 데코 완성
+거실,cause,라떼 침대도 동남아 무드로 선택,selection,action,공간 컨셉 일관성 강화
+부엌,cause,밝은 우드 톤 선택,selection,action,바닥 타일·가구와 자연스러운 조화
+외관,cause,방부목 색상 선택,selection,action,시간 경과의 멋 수용
+조경,cause,왕벚나무(겹벚꽃 대신 왕벚) 채택,selection,action,부지·환경 적합성과 스케일 매칭
+조경,cause,강아지 활동성으로 중정 자갈만으론 부족,constrain,action,메인 마당은 잔디로 결정
+가구,cause,오염·긁힘·물기 빈번,constrain,action,기능성 패브릭 채택
+운영,cause,수영장 관리 난이도 높음,constrain,action,관리 루틴 수용·유지
+거실,action,큰 통창·중정 조합,result,result,실내에서 사계절 풍경 감상
+부엌,action,수납 최적화·노출 최소화,result,result,정돈된 미니멀 주방 경험
+외관,action,벽돌·루버 조합,result,result,견고함과 따뜻한 질감 공존
+마스터욕실,action,노천탕 느낌 구현,result,result,휴양지 같은 목욕 경험
+조경,action,왕벚나무·단풍나무 포인트,result,result,계절별 장면 전환으로 정서적 만족 증가
+수영장,action,라떼 맞춤 수영장,result,result,반려견 행복·가족 놀이 증가
+거실,cause,TV 보며 식사하는 시간 선호,motivation,action,식탁 중심 배치
+거실,cause,거실·주방 뻥 뚫린 구조 요청,motivation,action,파티형 공용공간 구현
+창호,cause,큰 창 다량 설치,motivation,result,거실 어디서나 외부 조망
+중정,cause,야간 조명 연출,motivation,result,숨어 있는 정원 분위기
+별관,cause,중정을 통과해야 출입,motivation,action,본관·별관 프라이버시 강화
+서재,cause,아침 재즈 감상 루틴,motivation,action,감성적 하루 시작
+운영,cause,마당에서 커피 타임,motivation,action,자연 속 휴식 루틴 확립
